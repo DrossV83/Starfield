@@ -1,6 +1,6 @@
 public class Particle {
   private float x, y;
-  private float speed, angle;
+  private float speed;
   private float gravity = 0.05;
   private int r, g, b;
   public Particle(int startX, int startY, int baseR, int baseG, int baseB) {
@@ -22,3 +22,4 @@ public class Particle {
     ellipse(x, y, 8, 8);
   }
 }
+
